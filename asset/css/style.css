@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+        :root {
+            --press:'Press Start 2P', cursive;
+       }
+       body{
+           background-color: bisque;
+           font-family: var(--press);
+       }
+
+        #hdr,#div-answer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+       h2{
+            text-align: center;
+            font: 800 35px var(--press);
+            color: tomato;
+        }
+
+        #div-btn {
+            display: flex;
+            justify-content: space-evenly;
+            margin: 50px;
+        }
+        button{
+            padding: 15px 25px;
+            cursor: pointer;
+            font: 800 20px var(--press);
+        }
+   
+       input, #s_button{
+           display: none;
+       }
+       input{
+           margin:30px;
+           padding: 15px;
+           font: 800 14px var(--press);
+       }
+
+       #answer{
+           margin:20px;
+       }
